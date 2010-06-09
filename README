@@ -1,0 +1,4 @@
+Just install your Ubuntu 10.04 server basic.
+Use root permission to run ispconfig3_quick_install_ubuntu1004.sh
+ chmod +x ./ispconfig3_quick_install_ubuntu1004.sh
+ sudo ./ispconfig3_quick_install_ubuntu1004.sh

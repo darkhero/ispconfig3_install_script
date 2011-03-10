@@ -9,16 +9,16 @@ apt-get install postfix postfix-mysql postfix-doc mysql-client mysql-server cour
 a2enmod suexec rewrite ssl actions include
 
 cd /tmp
-wget http://heanet.dl.sourceforge.net/sourceforge/mydns-ng/mydns-1.2.8.27.tar.gz
-tar xvfz mydns-1.2.8.27.tar.gz
-cd mydns-1.2.8
+wget http://downloads.sourceforge.net/project/mydns-ng/mydns/1.2.8.31/mydns-1.2.8.31.tar.gz
+tar xvfz mydns-1.2.8.31.tar.gz
+cd mydns-1.2.8.31
 ./configure
 make
 make install
 
 cd /tmp
-wget http://downloads.sourceforge.net/ispconfig/ISPConfig-3.0.1.6.tar.gz?use_mirror=
-tar -xvf ISPConfig-3.0.1.6.tar.gz
+wget http://downloads.sourceforge.net/project/ispconfig/ISPConfig%203/ISPConfig-3.0.3.2/ISPConfig-3.0.3.2.tar.gz
+tar -xvf ISPConfig-3.0.3.2.tar.gz
 cd ispconfig3_install
 cd install
 php -q install.php
